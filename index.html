@@ -12,37 +12,41 @@
 
     <header>
       <div class="header_link">
-        <a href="#">Mail</a>
+        <a href="#" id="mail">Mail</a>
       </div>
       <div class="header_link">
-        <a href="#">Images</a>
+        <a href="#" id="images">Images</a>
       </div>
-      <div class="header_link" id="apps_tab">
-        <a href="#"></a>
-      </div>
-      <div class="header_link" id="notif_tab">
-        <a href="#"></a>
-      </div>
-      <div class="header_link" id="account_tab">
-        <a href="#"></a>
-      </div>
+      <a href="#">
+        <div class="header_link" id="apps_tab"></div>
+      </a>
+      <a href="#">
+        <div class="header_link" id="notif_tab"></div>
+      <a href="#">
+      <div class="header_link" id="account_tab"></div>
+      </a>
     </header>
 
-    <div id="main_logo">
-      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <div id="main">
+      <div id="main_logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height="92">
+      </div>
+
+      <form action="#" method="get">
+        <div id="search"><input type="search" name="search"></div>
+        <div id="sub_buttons">
+          <input type="submit" name="google-search" value="Google Search">
+          <input type="submit" name="lucky" value="I'm Feeling Lucky">
+        </div>
+      </form>
     </div>
-
-    <form action="#" method="get">
-      <input type="text" name="search"></input>
-      <input type="submit" name="google-search" value="Google Search">
-      <input type="submit" name="lucky" value="I'm Feeling Lucky">
-    </form>
-
+<!--
     <div class="ad">
       <a class="ad_pic" href="#"><img src="https://www.google.com/images/hpp/home-purple-128.png"></a>
       <span>Look, no hands.</span>
       <a class="ad_words" href="#">Introducing Hands-Free Calling on Google Home</a>
     </div>
+  -->
 
     <footer>
       <ul class="l_foot_links">
